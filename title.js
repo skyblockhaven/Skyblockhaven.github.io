@@ -16,7 +16,7 @@ function loaded() {
 
 var x = 0;
 
-var titleText = ["&#128293;|", "&#128293; ?|", "&#128293; C|", "&#128293; Cr|", "&#128293; Cru|", "&#128293; Crus|", "&#128293; Crush|", "&#128293; Crushe|", "&#128293; Crushen|", "&#128293; Crushen", "&#128293; Crushen", "&#128293; Crushen", "&#128293; Crushen", "&#128293; Crushe|", "&#128293; Crush|", "&#128293; Crus|", "&#128293; Cru|", "&#128293; Cr|", "&#128293; C|", "&#128293; |", "&#128293;|", "&#128293; .|", "&#128293; $|"];
+var titleText = ["&#128293;|", "&#128293; ?|", "&#128293; S|", "&#128293; Sk|", "&#128293; Sky|", "&#128293; Sky|", "&#128293; SkyB|", "&#128293; SkyBl|", "&#128293; SkyBlo|", "&#128293; SkyBloc|", "&#128293; SkyBlock|", "&#128293; SkyBlockH|", "&#128293; SkyBlockHa|", "&#128293; SkyBlockHav|", "&#128293; SkyBlockHave|", "&#128293; SkyBlockHaven|", "&#128293; SkyBlockHaven", "&#128293; SkyBlockHaven", "&#128293; SkyBlockHaven", "&#128293; SkyBlockHaven","&#128293; SkyBlockHaven|","&#128293; SkyBlockHave|","&#128293; SkyBlockHav|","&#128293; SkyBlockHa|","&#128293; SkyBlockH|","&#128293; SkyBlock|","&#128293; SkyBloc|", "&#128293; SkyBlo|", "&#128293; SkyBl|", "&#128293; SkyB|", "&#128293; Sky|", "&#128293; Sk|", "&#128293; S|", "&#128293; |", "&#128293;|", "&#128293; .|", "&#128293; $|"];
 
 function loop() {
 
