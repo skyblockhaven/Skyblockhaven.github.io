@@ -1,4 +1,4 @@
-const serverIP = "PLAY.SKYBLOCKHAVEN.COM";
+const serverIP = "soon";
 
 
 
