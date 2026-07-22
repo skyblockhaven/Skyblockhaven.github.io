@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>⛏️ SkyBlockHaven - Admin</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+    <div class="logo">⛏️ <span>SkyBlockHaven</span></div>
+
+    <nav>
+        <a href="index.html">🏠 Home</a>
+        <a href="servers.html">🌐 Servers</a>
+        <a href="news.html">📢 News</a>
+        <a href="rules.html">📜 Rules</a>
+        <a href="applications.html">📝 Applications</a>
+        <a href="staff.html">👥 Staff</a>
+        <a href="mods.html">🔧 Mods</a>
+        <a href="discord.html">💬 Discord</a>
+        <a href="admin.html">🛡️ Admin</a>
+    </nav>
+
+    <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">☰</button>
+</header>
+
+
+<section class="hero">
+
+<h2>🛡️ Admin Panel</h2>
+
+<p>
+SkyBlockHaven administration dashboard.
+</p>
+
+</section>
+
+
+<section class="features" style="grid-template-columns:1fr;max-width:500px;margin:0 auto;">
+
+<div class="card">
+
+<h2>🔐 Staff Login</h2>
+
+<input
+type="text"
+placeholder="Username"
+id="user"
+>
+
+<br><br>
+
+<input
+type="password"
+placeholder="Password"
+id="pass"
+>
+
+<br><br>
+
+<button class="button" onclick="login()">
+Login
+</button>
+
+
+<p id="result"></p>
+
+</div>
+
+</section>
+
+
+
+<section class="features" style="grid-template-columns:1fr;max-width:500px;margin:0 auto;">
+
+<div class="card">
+
+<h2>⚙️ Admin Tools</h2>
+
+<ul>
+
+<li>Server Management</li>
+
+<li>Player Reports</li>
+
+<li>Ban Management</li>
+
+<li>Staff Permissions</li>
+
+<li>Website Settings</li>
+
+</ul>
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+<p>
+© 2026 SkyBlockHaven ⛏️
+</p>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+<script>
+
+function login(){
+
+let user =
+document.getElementById("user").value;
+
+let pass =
+document.getElementById("pass").value;
+
+
+if(user=="admin" && pass=="skyblock"){
+
+document.getElementById("result").innerHTML =
+"✅ Login successful";
+
+}
+
+else{
+
+document.getElementById("result").innerHTML =
+"❌ Wrong login";
+
+}
+
+}
+
+</script>
+
+
+</body>
+</html>
