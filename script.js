@@ -174,3 +174,55 @@ if (hamburgerBtn && navEl) {
     });
 
 }
+
+// ===== Background Music Toggle (persists across page navigation) =====
+const bgMusic = document.getElementById("bgMusic");
+const musicToggle = document.getElementById("musicToggle");
+
+if (bgMusic && musicToggle) {
+
+    const savedState = localStorage.getItem("musicPlaying") === "true";
+    const savedTime = parseFloat(localStorage.getItem("musicTime")) || 0;
+
+    bgMusic.currentTime = savedTime;
+
+    function setPlayingUI() {
+        musicToggle.textContent = "🔊";
+        musicToggle.classList.add("playing");
+    }
+
+    function setPausedUI() {
+        musicToggle.textContent = "🔇";
+        musicToggle.classList.remove("playing");
+    }
+
+    if (savedState) {
+        bgMusic.play().then(setPlayingUI).catch(setPausedUI);
+    } else {
+        setPausedUI();
+    }
+
+    musicToggle.addEventListener("click", () => {
+
+        if (bgMusic.paused) {
+            bgMusic.play();
+            setPlayingUI();
+            localStorage.setItem("musicPlaying", "true");
+        } else {
+            bgMusic.pause();
+            setPausedUI();
+            localStorage.setItem("musicPlaying", "false");
+        }
+
+    });
+
+    // Keep saved position up to date so the next page picks up where this one left off
+    bgMusic.addEventListener("timeupdate", () => {
+        localStorage.setItem("musicTime", bgMusic.currentTime);
+    });
+
+    window.addEventListener("beforeunload", () => {
+        localStorage.setItem("musicTime", bgMusic.currentTime);
+    });
+
+}
