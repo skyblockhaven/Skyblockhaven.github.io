@@ -33,7 +33,8 @@ const typing = document.getElementById("typing");
 const text = [
     "Welcome to SkyBlockHaven",
     "The Ultimate Minecraft Network",
-    "SkyBlock • Survival • Events"
+    "SkyBlockHaven • Survival • Events",
+    "SkyBlockHaven SMP • SkyBlockHaven Discord • SkyBlockHaven Anarchy"
 ];
 
 let textIndex = 0;
