@@ -1,15 +1,15 @@
-const serverIP = "ender.skyblockhaven.com";
+const serverIP01 = "ender.skyblockhaven.com";
 
-function copyIP(){
-    navigator.clipboard.writeText(serverIP);
-    alert("Server IP copied: " + serverIP);
+function copyIP01(){
+    navigator.clipboard.writeText(serverIP01);
+    alert("Server IP copied: " + serverIP01);
 }
 
-const serverIP2 = "";
+const serverIP02 = "";
 
-function copyIP2(){
-    navigator.clipboard.writeText(serverIP2);
-    alert("Server IP copied: " + serverIP2);
+function copyIP02(){
+    navigator.clipboard.writeText(serverIP02);
+    alert("Server IP copied: " + serverIP02);
 }
 
 // ===== Animated Browser Title =====
