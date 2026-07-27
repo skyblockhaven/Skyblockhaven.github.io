@@ -34,7 +34,6 @@ const text = [
     "Welcome to SkyBlockHaven",
     "The Ultimate Minecraft Network",
     "SkyBlockHaven • Survival • Events"
-    "SkyBlockHaven SMP • SkyBlockHaven Discord • SkyBlockHaven Anarchy"
 ];
 
 let textIndex = 0;
