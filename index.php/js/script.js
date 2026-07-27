@@ -34,7 +34,17 @@ const text = [
     "Welcome to SkyBlockHaven",
     "The Ultimate Minecraft Network",
     "SkyBlockHaven • Survival • Events",
-    "SkyBlockHaven SMP • SkyBlockHaven Discord • SkyBlockHaven Anarchy"
+    "SkyBlockHaven SMP",
+    "SkyBlockHaven",
+    "SkyBlockHaven Discord",
+    "SkyBlockHaven",
+    "SkyBlockHaven Anarchy",
+    "SkyBlockHaven ",
+"SkyBlockHaven Network",
+"SkyBlockHaven ",
+"Join the SkyBlockHaven Discord to receive the latest updates, announcements, events, and server news.",
+    "SkyBlockHaven ",
+"SkyBlockHaven Website"
 ];
 
 let textIndex = 0;
